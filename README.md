@@ -1,7 +1,7 @@
-# Android Development Environment Docker Base Container
+# Android Dev Base Docker Container
 
-Android development environment base container. This container is not include Android SDK.  
-If you add a Android SDK(Platform-tools, build-tools, sysimg, and more...), you can start to develop immediately.  
+Android development base environment of docker container. This container is not include Android SDK.  
+If you add a Android SDK, you can start to develop immediately.  
 
 ## Package
 

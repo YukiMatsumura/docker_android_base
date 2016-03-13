@@ -40,4 +40,4 @@ ENV GRADLE_HOME /usr/local/gradle-2.11
 ENV PATH $PATH:$GRADLE_HOME/bin
 
 # Android SDK needs 32bit runtime.
-RUN /var/lib/dpkg/info/ca-certificates-java.postinst configure
+RUN rm -f /etc/ssl/certs/java/cacerts && /var/lib/dpkg/info/ca-certificates-java.postinst configure
